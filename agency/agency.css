@@ -1,0 +1,708 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,100;0,500;1,400&display=swap');*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+   
+}
+nav{
+    width: 100%;
+    background-color: #212529;
+    padding: 23px 0;
+}
+
+.ortalama{
+    width: 84%;
+    margin: auto;
+    position: relative;
+}
+.nav_cem{
+    display: flex;
+    align-items: center;
+}
+.agency_logo{
+    width: 70%;
+}
+.agency_logo img{
+    width: 150px;
+}
+.navbar{
+    width: 60%;
+}
+.navbar ul{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 19px;
+    
+}
+.navbar ul a:hover{
+    color: #e6b606;
+    transition: 0.5s;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+}
+#wel{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 4rem;
+}
+#it{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.tel{
+    width: 20%;
+    margin-top: 80px;
+}
+.tel a{
+background-color: #e6b606;
+padding: 25px 35px;
+font-family: 'Montserrat', sans-serif;
+color: white;
+}
+.sec1{
+    width: 100%;
+    margin-top: 5rem;
+
+}
+.basliq{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ #services{
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 700;
+    font-size: 40px;
+}
+#lorem{
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 600;
+    font-size: 17px;
+    font-style: italic;
+    color: #6c757d;
+    margin-top: 15px;
+}
+.qutular{
+    margin-top: 50px !important;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qutu1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qutu1 i{
+    font-size: 62px;
+    background-color: #ffc800;
+    color: white;
+    padding: 32px;
+    border-radius: 50%;
+}
+#e-com{
+    padding: 20px 0;
+    font-size: 24px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 700;
+}
+#lorem2{
+    width: 22rem;
+    font-size: 15px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 500;
+    text-align: center;
+    color: #6c757d;
+}
+.cem{
+	width: 100%;
+
+}
+.sec2{
+    margin-top: 10rem;
+    height: 60rem;
+    background-color: #f8f9fa;
+    padding-top: 70px;
+}
+.sekiller{
+    margin-top: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: absolute;
+
+}
+.card{
+    height: 340px;
+    vertical-align: top;
+
+   
+}
+.sekil{
+	width: 352px;
+	height: 250px;
+	border-radius: 9px;
+}
+.yazi{
+    width: 352px; 
+    height: 76px;
+    background-color: white;
+    
+}
+.yazi2{
+    opacity: 0;
+}
+#qalin{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+#ince{
+    margin-top: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+}
+.sekil1{
+	background-image: url("sekil1.png");
+	background-size: cover;
+}
+.sekil2{
+	background-image: url(sekil2.png);
+	background-size: cover;
+}
+.sekil3{
+	background-image: url(sekil3.png);
+	background-size: cover;
+}
+.sekil4{
+	background-image: url(sekil4.png);
+	background-size: cover;
+}
+.sekil5{
+	background-image: url(sekil5.png);
+	background-size: cover;
+}
+.sekil6{
+	background-image: url(sekil6.png);
+	background-size: cover;
+}
+
+.reng{
+	background-color: #e6b400;
+	opacity: 0;
+
+
+}
+.reng i{
+	font-size: 80px;
+	color: white;
+	transform: translateY(82px) translateX(139px);
+}
+
+
+.reng:hover{
+	opacity: 0.9;
+	transition: 0.5s;
+}
+.sec3{
+    height: 20rem;
+    margin-top: 7rem;
+}
+.tables{
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.div1{
+    width: 100%;
+    display: flex;
+}
+
+.div1_sag{
+    width: 50%;
+}
+.div1_sol{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+    padding: 0 122px;
+    padding-bottom: 100px;
+}
+.xet{
+    border-right: 3px solid #e9ecef;
+}
+.div2_sag{
+    align-items: flex-start;
+    border-left: 3px solid #e9ecef;
+    transform: translateX(-2px);
+}
+.lorem_metn2 p{
+    text-align: start !important;
+}
+#bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 7px 0;
+}
+#light{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #6c757d;
+    line-height: 26px;
+    text-align: end;
+}
+.lorem_metn{
+    width: 96%;
+}
+.radius{
+    position: absolute;
+    left: 41rem;
+    top: 0;
+}
+.img{
+    width: 180px;
+    border-radius: 50%;
+    border: 7px solid #e9ecef;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+.img_sari{
+    background-color: #ffc800;
+    height: 174px;
+    margin-top: -30px !important;
+}
+.img_sari p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 7PX;
+    PADDING: 32PX;
+    TEXT-ALIGN: center;
+}
+.generalour {
+    width: 100%;
+    padding: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.gen1 {
+    width: 27%;
+    height: 270px;
+    border-radius: 50%;
+    border: 10px solid rgb(190, 185, 185);
+    background-image: url(pp1.png);
+    background-size: cover;
+}
+
+.gen2 {
+    width: 27%;
+    height: 270px;
+    border-radius: 50%;
+    border: 10px solid rgb(190, 185, 185);
+    background-image: url(pp2.png);
+    background-size: cover;
+}
+
+.gen3 {
+    width: 27%;
+    height: 270px;
+    border-radius: 50%;
+    border: 10px solid rgb(190, 185, 185);
+    background-image: url(pp3.png);
+    background-size: cover;
+}
+
+.gen1yazi {
+    width: 100%;
+    margin-top: 330px;
+
+}
+
+.gen1yazi h1 {
+    text-align: center;
+    
+}
+
+.gen1yazi p {
+    text-align: center;
+    color: rgb(90, 84, 84);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.gen1icon i {
+    background-color: #212529;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.gen1icon {
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.gen1p {
+    text-align: center;
+    padding-top: 64px;
+}
+
+.gen1p p {
+    width: 45%;
+    display: inline-block;
+    color: rgb(90, 84, 84);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.gen1img {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
+}
+
+.gen1img img {
+    width: 200px;
+}
+
+.generalmap {
+    background-image: url(./map-image.png);
+    background-color: #212529;
+    position: relative;
+    width: 100%;
+    height: 110vh;
+}
+#port{
+    margin-top: 91rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+    columns: #212529;
+}
+#lor{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #6c757d;
+    margin-top: 20px;
+}
+#port1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 1.6rem;
+}
+
+#lor1 {
+    text-align: center;
+    color: rgb(173, 156, 156);
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.hisse1 {
+    z-index: 10;
+}
+
+.maphisse1 {
+    margin-left: 70px;
+    display: inline-block;
+    float: left;
+    width: 45%;
+}
+
+.maphisse2 {
+    width: 50%;
+    float: right;
+}
+
+.maphisse1 input {
+    margin-top: 3rem;
+    width: 630px;
+    height: 82px;
+    display: flex;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.maphisse1 input::placeholder {
+    font-size: 15px;
+    padding: 20px;
+}
+
+#messagetext::placeholder {
+    font-size: 15px;
+    padding: 20px;
+    text-align: start;
+}
+
+#messagetext {
+    width: 645px;
+    height: 328px;
+    border-radius: 10px;
+    margin-top: 60px;
+    display: inline-block;
+
+}
+
+#sendd {
+    background-color: #d9aa00;
+    width: 280px;
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 80px;
+    border-radius: 5px;
+    height: 80px;
+    opacity: 0.65;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-left: 600px;
+}
+
+.generalson {
+    width: 90%;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 50px;
+
+}
+
+.soncopy {
+    width: 30%;
+
+}
+
+.gen1icon1 {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+
+}
+
+.gen1icon1 i {
+    background-color: #212529;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.privacy {
+    width: 30%;
+    margin-left: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.privacy a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.hisse1 {
+    width: 27%;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.nrmp {
+    text-align: end;
+    line-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #37393b;
+}
+
+.nrm {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: end;
+}
+
+.hisse1img {
+    background-image: url(pp1.png);
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    margin: auto;
+    margin-top: -250px;
+    border: 8px solid rgba(184, 175, 175, 0.8);
+    z-index: 10;
+    position: relative;
+
+}
+
+.hisse1li {
+    margin-bottom: 100px;
+}
+
+.hise2 {
+    width: 27%;
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+    margin-top: 80px;
+    z-index: 10;
+}
+
+.nrm1 {
+    display: flex;
+    justify-content: start !important;
+}
+
+.nrmp1 {
+    text-align: start !important;
+}
+
+.hisse2img {
+    background-image: url(./2\ \(2\).jpg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    margin: auto;
+    margin-top: 100px;
+    border: 8px solid rgba(184, 175, 175, 0.8);
+    transform: translateY(70px);
+}
+
+.hisse3img {
+    background-image: url(./3\ \(2\).jpg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    margin: auto;
+    margin-top: 100px;
+    border: 8px solid rgba(184, 175, 175, 0.8);
+    margin-top: -250px;
+    z-index: 10;
+    position: relative;
+}
+
+
+.hisse1top {
+    margin-top: 250px;
+}
+
+.hisse4img {
+    background-image: url(./4\ \(1\).jpg);
+}
+
+.hisse5img {
+    background-color: #ffc800;
+    padding: 60px 30px;
+    margin: auto;
+    display: inline-block;
+    border-radius: 100%;
+    border: 8px solid rgba(184, 175, 175, 0.8);
+}
+
+.bos19 {
+    margin-top: 250px;
+    list-style: none;
+    margin-bottom: 100px;
+
+}
+
+.hisse6img {
+    background-color: #ffc800;
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 100px;
+    border: 8px solid rgba(184, 175, 175, 0.8);
+    transform: translateY(70px);
+}
+
+.hisse6img p {
+    font-weight: 900;
+    color: #fff;
+}
+
+#cetin ul::before {
+    content: ' ' !important;
+    width: 3px;
+    background-color: gray;
+    height: 1500px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 300px;
+
+}

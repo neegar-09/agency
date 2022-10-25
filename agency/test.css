@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.cem{
+    width: 100%;
+    position: relative;
+   
+}
+.sekiller{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div_umumi{
+    width: 499px;
+    height: 299px;
+}
+.div1{
+    background-image: url(test1.jpg);
+    background-size: cover;
+}
+.div2{
+    background-image: url(test2.jpg);
+    background-size: cover;
+}
+.div3{
+    background-image: url(test3.jpg);
+    background-size: cover;
+}
+.div4{
+    background-image: url(test4.jpg);
+    background-size: cover;
+}
+.div5{
+    background-image: url(test5.jpg);
+    background-size: cover;
+}
+.div6{
+    background-image: url(test6.jpg);
+    background-size: cover;
+}
+.rengler{
+    position: absolute;
+    top: -48px;
+}
+.reng{
+    background-color:#e96039;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+
+}
+.reng:hover{
+    opacity: 0.9;
+    transition: 0.5s;
+}
+a:hover{
+    color: red;
+}
+
+#bir{
+color: grey;
+font-size: 25px;
+}
+#iki{
+    color: white;
+    font-size: 25px;
+}
